@@ -6,22 +6,171 @@ body{
     height: 100%;
   }
 
+::placeholder{
+
+  font-family: 'Space Grotesk', sans-serif;
+  opacity: 0.5;
+  font-size: large;
+  font-weight: 500;
+  padding: 10px;
+}
+input:focus {
+  border-color: rgb(83, 58, 175);;
+  outline: none; 
+}
+
 #container{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 320px;
-    margin-top: 100px;
+    margin-top: 200px;
     
 }
 
 #indiv-left{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 50px;
 }
 
 #card-above{
-    margin-left: -100px;
+    right: 0px;
+    position: relative;
 }
+#card{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+#card-logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+  }
+  #card-number{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:xx-large;
+    color: rgb(250, 250, 250);
+    font-weight: 10;
+    
+
+  }
+
+  #card-owner-name{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(250, 250, 250);
+   
+
+  }
+  #exp{
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(250, 250, 250);
+  }
+   
+
+#card-below{
+    position: relative;
+    left: 110px;
+    
+}
+
+
+ 
+  #card-back{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+
+  #cvc-number{
+    position: absolute;
+    top: 97px;
+    right: 50px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(250, 250, 250);
+  }
+
+  #indiv-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 120px;
+  }
+  .details{
+    font-family:'Space Grotesk', sans-serif;
+    color: rgb(83, 58, 175);
+    font-weight: 600;
+  }
+
+  #date-cvs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  #input-date-year{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  input{
+    border-radius: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+     font-size: large;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-color: rgba(214, 202, 202, 0.7);
+
+  
+  
+    
+  }
+  #cardholder-input{
+    
+    width: 500px;
+    height: 50px;
+  }
+  #cardnumber-input{
+    width: 500px;
+    height: 50px;
+  }
+  #month-input{
+    width: 100px;
+    height: 50px;
+  }
+  #year-input{
+    width: 100px;
+    height: 50px;
+
+  }
+  #cvc-input{
+    height: 50px;
+    width: 250px;
+
+  }
+  button{
+    height: 50px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgb(83, 58, 175);
+    color: aliceblue;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
 
