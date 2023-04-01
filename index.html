@@ -45,8 +45,8 @@
         </div>
         <div id="input-cardholder">
           <input type="text" name="cardholder" id="cardholder-input" placeholder="e.g. Jane Appleseed">
-
         </div>
+        <div class = "warning" id="name-warning"></div>
       </div>
       
       
@@ -59,6 +59,7 @@
         <div id="input-cardnumber">
           <input type="text" name="cardnumber" id="cardnumber-input" placeholder="e.g. 1234 5678 9123 0000">
         </div>
+        <div class = "warning" id="number-warning"></div>
       </div>  
 
       <div id="date-cvs">
@@ -70,10 +71,12 @@
             <div id="input-date-year">
               <div id="date-month-input">
                 <input type="text" name="month" id="month-input" placeholder="MM">
+                <div class = "warning" id="date-warning"></div>
               </div>
               <div id="date-year-input">
                 <input type="text" name="year" id="year-input" placeholder="YY">
               </div>
+              
             </div>
           </div>
           
@@ -85,6 +88,7 @@
               <div id="cvc-inpu">
                 <input type="text" name="cvc" id="cvc-input" placeholder="e.g. 123">
               </div>
+              <div class = "warning" id="cvc-warning"></div>
           </div>
         </div>
         <button id="confirm">CONFIRM</button>
