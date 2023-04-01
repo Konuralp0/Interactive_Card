@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./design/desktop-design.jpg](C:\Users\Konuralp\Desktop\HTML_css\Interactive Card Detail\design\desktop-design.jpg)
+![./design/desktop-design.jpg]
 
 
 ### Links
@@ -51,19 +51,7 @@ Users should be able to:
 - EventListeners
 - Flexbox
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 
 
