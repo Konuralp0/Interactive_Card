@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [konuralp0.github.io/Interactive_Card/]()
+- Live Site URL: [konuralp0.github.io/Interactive_Card]()
 
 ## My process
 
